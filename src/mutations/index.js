@@ -7,4 +7,4 @@ export const NUEVO_CLIENTE = gql`
       nombre
       apellido
     }
-  }`
+  }`;

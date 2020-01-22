@@ -42,7 +42,7 @@ class NuevoCliente extends Component<any, AppState> {
     }
   }
 
-  render() {
+  render(): JSX.Element {
     return (
       <>
         <h1 className='text-center'>Nuevo cliente</h1>

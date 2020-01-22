@@ -25,6 +25,7 @@
     "@typescript-eslint"
   ],
   "rules": {
+    "@typescript-eslint/no-explicit-any": 0,
     "react/jsx-filename-extension": [
       1,
       {
@@ -93,7 +94,8 @@
       }
     ],
     "import/no-unresolved": 0,
-    "import/prefer-default-export": 1,
+    "import/prefer-default-export": 0,
+    "import/extensions": 0,
     "jsx-a11y/label-has-associated-control": 0,
     "key-spacing": [
       2,
@@ -194,6 +196,7 @@
     "no-octal": 2,
     "no-octal-escape": 2,
     "no-path-concat": 0,
+    "no-param-reassign": 0,
     "no-plusplus": 0,
     "no-process-env": 0,
     "no-process-exit": 0,
